@@ -11,18 +11,19 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "cstest/cstest": "4.1.0"
     },
 
     "repositories": [
         {
             "type": "package",
             "package": {
-                "name": "smarty/smarty",
+                "name": "cstest/cstest",
                 "version": "4.1.0",
                 "dist": {
                     "url": "https://www.cs-cart.com/index.php?dispatch=pages.get_trial&page_id=297&edition=ultimate",
-                    "type": "zip"
+                    "type": "tar"
                 }
             }
         }
